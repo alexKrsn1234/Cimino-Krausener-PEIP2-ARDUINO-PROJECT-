@@ -20,7 +20,7 @@ Cependant Monsieur Masson a mis fin à nos espoirs en nous conseillant de travai
 <img width="295" alt="image" src="https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/69a02795-cf50-4a87-9041-8b256a14b2c5">
 
 L'idée initiale était de se concentrer uniquement sur l'aspect développement de notre voiture SEULEMENT sans inclure la partie télécommunication que nous comptions prendre "déjà réalisée".
-Mais cette redirection nous pousse à abandonner l'ensemble de la partie conception et de nous rediriger sur les mouvements de la voiture et la télécommunication uniquement chose qui nous semble aisée.
+Mais cette redirection nous pousse à abandonner l'ensemble de la partie conception et de nous rediriger sur les mouvements de la voiture et la télécommunication uniquement...
 
 Il nous a donc été confié une Arduino [Esplora](https://docs.arduino.cc/retired/boards/arduino-esplora) afin de réaliser la télécommande ainsi qu'une paire d'emmeteur/recepteur.
 Nous avons ensuite testé les moteurs de la voiture 1 par 1 afin de vérifier qu'ils fonctionnaient bien.
