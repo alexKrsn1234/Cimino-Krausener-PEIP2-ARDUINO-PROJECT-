@@ -2,9 +2,9 @@
 Après avoir terminé de définir clairement notre projet et nous être penché sur les performances que devront atteindre notre voiture (vitesse visée 50km/h).
 Après également nous être renseigné sur la manière la plus optimal de réaliser la transmission arrière (point de départ de nos recherches) nous en avons déduit selon le raisonnement suivant:
 
-Vvisée = 50km/h~14m/s
+Vvisée = 50km/h ~ 14m/s
 diamètre roue D ~ 4,5 cm
-1 tour de roue T= 2πR=πD=4,5π~14,1cm
+1 tour de roue T= 2πR = πD = 4,5π cm ~ 14,1cm
 Vroue = D/T ~ 100tr/s
 gear ratio estimé : G=2 (2 tour de moteur pour 1 tour d'axe de transmission)
 donc Vmoteur ~ 200 tr/s ~ 12000 tr/min
