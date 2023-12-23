@@ -1,3 +1,5 @@
+#include <CytronMotorDriver.h>
+
 /*******************************************************************************
  * THIS SOFTWARE IS PROVIDED IN AN "AS IS" CONDITION. NO WARRANTY AND SUPPORT
  * IS APPLICABLE TO THIS SOFTWARE IN ANY FORM. CYTRON TECHNOLOGIES SHALL NOT,
@@ -29,8 +31,8 @@
 
 
 // Configure the motor driver.
-CytronMD motor(PWM_DIR, 3, 4);  // PWM = Pin 3, DIR = Pin 4.
-
+CytronMD motor(PWM_DIR, 0, 1);  // PWM = Pin 3, DIR = Pin 4.
+CytronMD motord(PWM_DIR, 2,3);
 
 // The setup routine runs once when you press reset.
 void setup() {
