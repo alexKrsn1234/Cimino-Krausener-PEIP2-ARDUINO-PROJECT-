@@ -3,7 +3,8 @@
 
 Lors de cette séance j'ai été occupé par l'aspect télécommunication que recquiert notre projet. Il s'agissait alors de paramétrer les modules HC-12
 qui nous ont étés confiés afin de réaliser la liaison entre la télécommande (Arduino esplora) et la voiture (commandée par l'arduino UNO).
-![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/13168919-4c0a-4615-956a-64576e318c0d)
+![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/b91b2fe6-f7b9-4da8-9942-e23063cea3ff)
+
 
 
 J'ai alors paramétré les modules afin qu'ils communiquent sur les mêmes fréquences et qu'ils possèdent la même vitesse de transmission grâce aux commandes AT.
