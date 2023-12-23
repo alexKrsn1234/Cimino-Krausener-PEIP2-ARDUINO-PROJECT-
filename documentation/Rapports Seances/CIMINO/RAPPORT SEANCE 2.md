@@ -9,13 +9,13 @@ qui nous ont étés confiés afin de réaliser la liaison entre la télécommand
 
 J'ai alors paramétré les modules afin qu'ils communiquent sur les mêmes fréquences et qu'ils possèdent la même vitesse de transmission grâce aux commandes AT.
    
-  -paramétrage de la vitesse de transmission entre les 2 modules:
+  *paramétrage de la vitesse de transmission entre les 2 modules:
     AT+Bxxxx avec xxxx vitesse de transmission des informations. J'ai choisi la valeur de 9600 bauds car je ne pense pas qu'utiliser 
     une valeur élevée soit une bonne idée, on risque de surcharger le canal et les cartes arduino alors que les moteurs de la voiture ne pourront pas suivre
     l'ensemble des ordes données à une telle vitesse car ils sont assujettis à une certaine inertie (je pense qu'il vaut mieux leur donner des valeurs "lissées 
     dans le temps"). Cette valeur pourra être modifier en fonction des résultats des expérimenttaions menées. 
   
-  -paramétrage de la fréquence utilisée pour communiquer réalisé en choisissant la chaine sur laquelle communiquer:
+  *paramétrage de la fréquence utilisée pour communiquer réalisé en choisissant la chaine sur laquelle communiquer:
     AT+Cxxx avec xxx numéro de chaine allant de 001 à 100 (001 correspond à une fréquence d'émission/réception de 433,4MHz elle augmente de 400KHz
     par augmentation de chaine). J'ai choisi arbitrairement le channel 050 mais encore une fois cette valeur pourra évoluer au cours du temps en fonction de 
     l'analyse empirique de la qualité de la télécommunication.
