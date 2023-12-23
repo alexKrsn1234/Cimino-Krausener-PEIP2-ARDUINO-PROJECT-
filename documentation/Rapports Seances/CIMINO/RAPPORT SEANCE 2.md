@@ -3,6 +3,8 @@
 
 Lors de cette séance j'ai été occupé par l'aspect télécommunication que recquiert notre projet. Il s'agissait alors de paramétrer les modules HC-12
 qui nous ont étés confiés afin de réaliser la liaison entre la télécommande (Arduino esplora) et la voiture (commandée par l'arduino UNO).
+![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/13168919-4c0a-4615-956a-64576e318c0d)
+
 
 J'ai alors paramétré les modules afin qu'ils communiquent sur les mêmes fréquences et qu'ils possèdent la même vitesse de transmission grâce aux commandes AT.
    
@@ -25,10 +27,10 @@ Le but était d'envoyer des bits d'information 0 ou 1 d'un module à l'autre et 
 Cependant malgrè de nombreuses tentatives, je n'ai pas réussi à faire passer une information d'un module à l'autre, je m'y atèlerai donc pendant les vacances.
 
 Je suis alors parvenu à un programme à tenir avant la séance du 12 janvier:
--établir la communcation entre les 2 modules
--établir un protocole perfectionné d'envoie des bits pour envoyer des informations plus complexe sans confusion de données.
--connecter correctement un des modules à la télécommande (Arduino esplora) et récupérer conformément au protocole établie précedemment les informations
+* établir la communcation entre les 2 modules
+* établir un protocole perfectionné d'envoie des bits pour envoyer des informations plus complexe sans confusion de données.
+* connecter correctement un des modules à la télécommande (Arduino esplora) et récupérer conformément au protocole établie précedemment les informations
 entrées par l'utilisateur de la télécommande.
--envoyer ces informations à l'autre module placé sur l'arduino uno (qui sera sur la voiture) selon le protocole.
--transférer les donées reçues et effectuer les actions demandées (donc nécessite un codage des informations selon le même
+* envoyer ces informations à l'autre module placé sur l'arduino uno (qui sera sur la voiture) selon le protocole.
+* transférer les donées reçues et effectuer les actions demandées (donc nécessite un codage des informations selon le même
 protocole définit précedemment).
