@@ -8,13 +8,13 @@ Découverte des modules et de leur fonctionnement, reconfiguration de ceci grâc
 à une certaine vitesse(baud rate) et du mode de fonctionnement(maitre/esclave, emmeteur/recepteur...).
 Nombreux tests de communication effectués afin d'acquérir l'expérience nécessaire et de choisir un mode de fonctionnement paraissant adapté (les 4 premiers test 
 ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
-  *1er test : envoie d'un bit d'information (0 ou 1)
-  *2e test : contrôle à distance d'une led 
-  *3e test : envoie d'informations avec des bits de contôle (start, end)
-  *4e test : envoie d'informations destinées à des actions différentes côté recepteur
+  1. 1er test : envoie d'un bit d'information (0 ou 1)
+  2. 2e test : contrôle à distance d'une led 
+  3. 3e test : envoie d'informations avec des bits de contôle (start, end)
+  4. 4e test : envoie d'informations destinées à des actions différentes côté recepteur
   Emmetteur maintenant placé sur une Arduino Esplora
-  *5e test : envoie d'informations depuis le joystick de l'esplora
-  *6e test : envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur
+  5. 5e test : envoie d'informations depuis le joystick de l'esplora
+  6. 6e test : envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur
   
 
 ##  I.2 Arduino Esplora
