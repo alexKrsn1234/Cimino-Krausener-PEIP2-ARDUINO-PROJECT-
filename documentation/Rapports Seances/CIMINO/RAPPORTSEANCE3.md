@@ -11,7 +11,7 @@ ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   1. envoie d'un bit d'information (0 ou 1)
   2. [contrôle à distance d'une led](/code/TELECOMMUNICATION/HC-12/HC12-commSR/LEDTEST)
   3. envoie d'informations avec des bits de contôle (start, end)
-  4. envoie d'informations destinées à des actions différentes côté recepteur
+  4. envoie d'informations destinées à des actions différentes côté recepteur    
   Emmetteur maintenant placé sur une Arduino Esplora
   5. [envoie d'informations depuis le joystick de l'esplora](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST)
   6. envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur
