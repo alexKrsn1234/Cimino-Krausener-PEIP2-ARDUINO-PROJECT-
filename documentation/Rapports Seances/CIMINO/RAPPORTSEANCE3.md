@@ -8,13 +8,13 @@ Découverte des modules et de leur fonctionnement, reconfiguration de ceci grâc
 à une certaine vitesse(baud rate) et du mode de fonctionnement(maitre/esclave, emmeteur/recepteur...).
 Nombreux tests de communication effectués afin d'acquérir l'expérience nécessaire et de choisir un mode de fonctionnement paraissant adapté (les 4 premiers test 
 ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
-  1. 1er test : envoie d'un bit d'information (0 ou 1)
-  2. 2e test : contrôle à distance d'une led 
-  3. 3e test : envoie d'informations avec des bits de contôle (start, end)
-  4. 4e test : envoie d'informations destinées à des actions différentes côté recepteur
+  1. envoie d'un bit d'information (0 ou 1)
+  2. contrôle à distance d'une led 
+  3. envoie d'informations avec des bits de contôle (start, end)
+  4. envoie d'informations destinées à des actions différentes côté recepteur
   Emmetteur maintenant placé sur une Arduino Esplora
-  5. 5e test : envoie d'informations depuis le joystick de l'esplora
-  6. 6e test : envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur
+  5. envoie d'informations depuis le joystick de l'esplora
+  6. envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur
   
 
 ##  I.2 Arduino Esplora
@@ -25,9 +25,9 @@ Réalisation de tests permettant de récupérer les informations données par le
 Définition des modules que nous utiliserons pour notre projet.
 ![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/239b7123-25a9-473f-9b85-8eb9a99dbf49)
 
-*1: potentiomètre, ajuste la puissance délivrée aux moteurs 
-*2: joystick, permet d'avancer, reculer, tourner
-*3: vérifie la bonne communication entre la télécommande et la voiture (alummme une led de couleur en fonction de l'état de la connection)
+1. potentiomètre, ajuste la puissance délivrée aux moteurs 
+2. joystick, permet d'avancer, reculer, tourner
+3. vérifie la bonne communication entre la télécommande et la voiture (alummme une led de couleur en fonction de l'état de la connection)
 
 Test réalisé:
 Récupération de l'état du potentiomètre(1), du joystick(2), et du bouton d'état de la connection(3).
