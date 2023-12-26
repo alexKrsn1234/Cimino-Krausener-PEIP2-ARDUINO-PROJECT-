@@ -1,7 +1,4 @@
 #include <SoftwareSerial.h>
-//using namespace std;
-
-
 
 char data;
 SoftwareSerial HC12(10, 11); // HC-12 TX Pin, HC-12 RX Pin
@@ -25,7 +22,4 @@ void loop() {
   }
     digitalWrite(6,LOW);
     delay(1000);
-  while (Serial.available()) {      // If Serial monitor has data
-    HC12.write(Serial.read());      // Send that data to HC-12
-  }
 }
