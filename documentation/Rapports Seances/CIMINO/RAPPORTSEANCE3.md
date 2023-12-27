@@ -15,7 +15,7 @@ ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   Emmetteur maintenant placé sur une Arduino Esplora   
   
   4. [envoie d'informations depuis le joystick de l'esplora](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST)
-  5. envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur
+  5. [envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/TEST5)
   
 
 ##  I.2 Arduino Esplora
@@ -41,7 +41,7 @@ Les valeurs envoyées sont les suivantes : Roll (enclenche le roulage du véhicu
 de l'angle donnée aux roues avant de -255 à 255) et Communication (démarre une vérifiaction de la connexion)
 Les valeurs de Roll et de Direction sont calculées à l'aide des input de l'utilisateur. Ces calculs sont donc réalisés avant même l'envoie des données 
 afin de priviliéger un envoie d'informations plus compacte.
-Ainsi, comme dans le [test 5](, la valeur de roll est fonction de l'inclinaison du joystick(2) en Y et du slider(1), la valeur de direction dépend
+Ainsi, comme dans le [test 5](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/TEST5), la valeur de roll est fonction de l'inclinaison du joystick(2) en Y et du slider(1), la valeur de direction dépend
 uniquement de l'inclinaison du joystick(2) en X.
 Ce sont ces données qui sont ensuite envoyées à l'arduino de la voiture par les modules RF HC-12.
 Chaque envoie de données de l'esplora est certi de 2 bits de contrôle 'S'(Start) et 'E'(End) ainsi qu'un bit dit d'action.
