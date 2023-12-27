@@ -37,9 +37,14 @@ Récupération de l'état du potentiomètre(1), du joystick(2), et du bouton d'�
 ## I.3 HC-12 ET ESPLORA
 
 Définission d'un algorithme d'envoie/réception des données pour éviter les confusions.
-Chaque envoie de données de l'esplora par le modules HC-12 est certi de 2 bits de contrôle 'S'(Start) et 'E'(End) ainsi qu'un bit de confirmation
-'P'(Potentiomètre), 'J'(Joystick) et 'C'(Communication).
-
-Un envoie de données du potetiomètre ressemble par exemple à "SP120E".
+La défintion et le calcul des valeurs des actions : Roll (enclenche le roulage du véhicule en fonction de la valeur), Direction (décide de la valeur
+de l'angle donnée aux roues avant) et Communication (démarre une vérifiaction de la connexion) sont réalisés avant même l'envoie des données 
+afin de priviliéger un envoie d'informations plus compacte.
+Ainsi, comme dans le test 5, la valeur de roll est fonction de l'inclinaison du joystick(2) en Y et du slider(1), la valeur de direction dépend
+uniquement de l'inclinaison du joystick(2) en X.
+Ce sont ces données qui sont ensuite envoyées à l'arduino de la voiture par les modules RF HC-12.
+Chaque envoie de données de l'esplora est certi de 2 bits de contrôle 'S'(Start) et 'E'(End) ainsi qu'un bit dit d'action.
+'R'(Roll), 'D'(Direction) et 'C'(Communication).
+Un envoie de données ressemble par exemple à "SR120E".
 Une fois ces données reçues, l'HC-12 placé sur l'arduino de la voiture transmet ces données à l'arduino qui les "décrypte" et envoie l'infomation
 nécessaire au pont en H qui contrôle les moteurs ou au HC-12 récepteur qui devient émmeteur en cas de réception de la balise 'C'.
