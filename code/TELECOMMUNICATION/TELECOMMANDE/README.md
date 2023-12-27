@@ -7,7 +7,7 @@
 
 * ## [Library](https://docs.arduino.cc/retired/archived-libraries/EsploraLibrary) to use.
 
-## Buttons to use :  
+* ## Buttons to use :  
 
 ![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/9e730059-6c07-430f-9877-74488c2e9e72)
 
