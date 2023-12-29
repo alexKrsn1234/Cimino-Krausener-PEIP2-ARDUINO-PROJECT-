@@ -29,12 +29,9 @@ void loop() {
   if(abs(joyValueY)<10){roll=0;}
   else{roll = map(joyValueY,-512,512,255,-255)*motorPower/100;}
   
-  HC12.print('S'+ 'R'+String(roll)+'E');
-  HC12.print('S'+'D'+String(direction)+'E');
-  Serial.println(roll);
-  Serial.println(direction);
-  //HC12.print("S" + String(motorPower + "E");
-  //value=1-value;
-  delay(1000);
+  Serial.println('s'+String(roll) + 'd' + String(direction)+'e');
+  HC12.println('s'+String(roll) + 'd' + String(direction)+'e');
+
+  delay(10);
   
 }

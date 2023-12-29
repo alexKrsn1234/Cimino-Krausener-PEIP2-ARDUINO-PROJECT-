@@ -9,8 +9,8 @@ CytronMD motor2(PWM_PWM, 5, 4); // PWM 2A = Pin 5, PWM 2B = Pin 4.
 SoftwareSerial HC12(10, 11); // HC-12 TX Pin, HC-12 RX Pin
 
 //variables
-char incommingByte;
-String buffer;
+char incomingByte;
+String readBuffer;
 boolean start = false;
 int roll=0;
 int direction = 0;
@@ -24,33 +24,40 @@ void setup() {
 }
 
 void loop() {
-  start=false;
-  while(HC12.available()){
-    incommingByte=HC12.read();
-    if(incommingByte=='S'){
-      buffer="";
-      start = true;
-    }
-    else if (start==true){
-      if(incommingByte!='E'){
-        buffer+=incommingByte;
-      }
-      else{Serial.println(buffer);}
-    }
+  //Serial.println(HC12.read());
 
-    //delay(10);
-  }  
-  action = buffer.charAt(0);  //on récup la 1ère lettre du buffer pour sélectionner l'action à effectur
-  value = atoi(buffer.charAt(1)); //ici on récup la valeur transmise
-  if(action=='R'){
-    motor1.setSpeed(value);  //envoie la valeur de roll aux moteurs
-  } 
-  else if(action=='D'){
-    motor2.setSpeed(value); //envoie la valeur reçue au servo
+  readBuffer = "";
+  start = false;
+  // Reads the incoming data
+  while (HC12.available()) {             // If HC-12 has data
+    incomingByte = HC12.read();          // Store each icoming byte from HC-12
+    delay(5);
+    // Reads the data between the start "s" and end marker "e"
+    if (start == true) {
+      if (incomingByte != 'e') {
+        readBuffer += char(incomingByte);    // Add each byte to ReadBuffer string variable
+      }
+      else {
+        start = false;
+      }
+    }
+    // Checks whether the received message statrs with the start marker "s"
+    else if ( incomingByte == 's') {
+      start = true; // If true start reading the message
+    }
   }
-  else if(action=='B'){
-    //TODO : procédure de réenvoie de bit
+
+  if (readBuffer!=""){
+  Serial.println(readBuffer);
+  int index = readBuffer.indexOf('d');
+  roll = readBuffer.substring(0, index).toInt();
+  direction = readBuffer.substring(index+1).toInt();
+  Serial.println(roll);
+  Serial.println(direction);
+  motor2.setSpeed(roll);  //envoie la valeur de roll aux moteurs
+  motor1.setSpeed(direction); //envoie la valeur reçue au servo
+
+
   }
-    delay(1000);
 
 }
