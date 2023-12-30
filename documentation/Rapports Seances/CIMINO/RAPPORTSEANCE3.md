@@ -6,7 +6,7 @@
 
 Découverte des modules et de leur fonctionnement, reconfiguration de ceci grâce aux commandes AT afin de communiquer sur une certaine fréquence(choix du canal)
 à une certaine vitesse(baud rate) et du mode de fonctionnement(maitre/esclave, emmeteur/recepteur...).
-Nombreux tests de communication effectués afin d'acquérir l'expérience nécessaire et de choisir un mode de fonctionnement paraissant adapté (les 4 premiers test 
+Nombreux tests de communication effectués afin d'acquérir l'expérience nécessaire et de choisir un mode de fonctionnement paraissant adapté (les 3 premiers test 
 ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   1. envoie d'un bit d'information (0 ou 1)
   2. [contrôle à distance d'une led](/code/TELECOMMUNICATION/HC-12/HC12-commSR/LEDTEST)
