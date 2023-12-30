@@ -51,7 +51,7 @@ Ainsi, comme dans le [test 5](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORAT
 Ce sont ces données qui sont ensuite envoyées à l'arduino de la voiture par les modules RF HC-12.
 Chaque envoie de données de l'esplora est certi de 2 bits de contrôle 's'(start) et 'e'(end) ainsi qu'un bit de séparation 'd'. 
 
-Un envoie de données ressemble par exemple à "s120d58E", avec 120 pour la valeur de roll et 58 pour celle de direction.   
+Un envoie de données ressemble par exemple à "s120d58e", avec 120 pour la valeur de roll et 58 pour celle de direction.   
 
 Une fois ces données reçues, l'HC-12 placé sur l'arduino de la voiture transmet ces données à l'arduino qui les "décrypte" et envoie l'infomation
 nécessaire au pont en H qui contrôle les moteurs. Pour reprendre l'exemple précédent on demande au pont en H d'envoyer 120 au moteur 2 qui contôle 
