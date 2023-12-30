@@ -64,11 +64,11 @@ sur la puissance électrique reçue par les moteurs (divisée également par 2) 
 
 ## POINTS A AMELIORER:
 
-1.vitesse de la voiture:   
+1. ### vitesse de la voiture:   
 
   Hypothèse: mettre 2 pont en H 
 
-2.télécommunication:    
+2. ### télécommunication:    
 
   -De nombreuses données semblent être perdues lors de la télécommunication   
   Hypothèse: Jouer sur les réglages des modules HC-12 afin de gagner en performance   
