@@ -37,7 +37,7 @@ Test réalisé:
 Récupération de l'état du potentiomètre(1), du joystick(2), et du bouton d'état de la connection(3).
 
 
-## I.3 HC-12 ET ESPLORA
+## I.3 HC-12 ET ESPLORA ET VOITURE
 
 Définition d'un algorithme d'envoie/réception des données pour éviter les confusions.
 Les valeurs envoyées sont les suivantes : Roll (enclenche le roulage du véhicule en fonction de la valeur de -255 à 255), Direction (décide de la valeur
@@ -49,12 +49,31 @@ afin de priviliéger un envoie d'informations plus compacte.
 Ainsi, comme dans le [test 5](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/TEST5), la valeur de roll est fonction de l'inclinaison du joystick(2) en Y et du slider(1), la valeur de direction dépend uniquement de l'inclinaison du joystick(2) en X.    
 
 Ce sont ces données qui sont ensuite envoyées à l'arduino de la voiture par les modules RF HC-12.
-Chaque envoie de données de l'esplora est certi de 2 bits de contrôle 'S'(Start) et 'E'(End) ainsi qu'un bit dit d'action.
-'R'(Roll), 'D'(Direction) et 'C'(Communication).    
+Chaque envoie de données de l'esplora est certi de 2 bits de contrôle 's'(start) et 'e'(end) ainsi qu'un bit de séparation 'd'. 
 
-Un envoie de données ressemble par exemple à "SR120E".   
+Un envoie de données ressemble par exemple à "s120d58E", avec 120 pour la valeur de roll et 58 pour celle de direction.   
 
 Une fois ces données reçues, l'HC-12 placé sur l'arduino de la voiture transmet ces données à l'arduino qui les "décrypte" et envoie l'infomation
-nécessaire au pont en H qui contrôle les moteurs ou au HC-12 récepteur qui devient émmeteur en cas de réception de la balise 'C'.    
+nécessaire au pont en H qui contrôle les moteurs. Pour reprendre l'exemple précédent on demande au pont en H d'envoyer 120 au moteur 2 qui contôle 
+la vitesse de la voiture et 58 au moteur 1(servo).  
 
-Par exemple en cas de réception des bytes "SR120E", la valeur 120 est envoyée en sortie PWM aux moteurs commandant la vitesse du véhicule.
+La voiture semble lente, il faudra tester avec 2 ponts en H fonctionnels car je pense qu'avoir mis les 2 moteurs responsables de la vitesse de la voiture
+sur la même sortie du pont en H divise le courant sortant de celui-ci en 2 (moteurs placés en parrallèles). Cela semble avoir un impact non négligeable
+sur la puissance électrique reçue par les moteurs (divisée également par 2) et ainsi diminuant leur performance.
+
+
+## POINTS A AMELIORER:
+
+*vitesse de la voiture:   
+
+  Hypothèse: mettre 2 pont en H 
+
+*télécommunication:    
+
+  -De nombreuses données semblent être perdues lors de la télécommunication   
+  Hypothèse: Jouer sur les réglages des modules HC-12 afin de gagner en performance   
+    
+  -Créer une vérification de la communication pour voir lorsque des données sont perdues (allumage led esplora)
+  
+
+
