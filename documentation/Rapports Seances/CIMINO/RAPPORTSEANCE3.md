@@ -74,6 +74,9 @@ sur la puissance électrique reçue par les moteurs (divisée également par 2) 
   Hypothèse: Jouer sur les réglages des modules HC-12 afin de gagner en performance   
     
   -Créer une vérification de la communication pour voir lorsque des données sont perdues (allumage led esplora)
+
+### 3. branchements:
+  -Réaliser des soudures pour simplifier les branchements réalisés et éviter les faux-contacts.
   
 
 
