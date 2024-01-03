@@ -2,7 +2,7 @@
 
 # I/Travail réalisé pendant les vacances
 
-##  I.1 Modules HC-12
+##  I.1 MODULES HC-12
 
 Découverte des modules et de leur fonctionnement, reconfiguration de ceci grâce aux commandes AT afin de communiquer sur une certaine fréquence(choix du canal)
 à une certaine vitesse(baud rate) et du mode de fonctionnement(maitre/esclave, emmeteur/recepteur...).
@@ -18,7 +18,7 @@ ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   5. [envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/TEST5)
   
 
-##  I.2 Arduino Esplora
+##  I.2 ARDUINO ESPLORA
 
 Découverte de l'Arduino Eplora ainsi que de la librairie associée. La carte est simple d'utilisation niveau code, cependant le challenge résidait dans la 
 faible documentation concernant les pins. Après quelques recherches j'ai trouvé une documentation non-officielle qui semble correcte. 
@@ -82,7 +82,7 @@ sur la puissance électrique reçue par les moteurs (divisée également par 2) 
   -Réaliser des soudures pour simplifier les branchements réalisés et éviter les faux-contacts.   
 
 
-## I.5 créations de plans pour le projet de réaliser notre propre chassis   
+## I.5 CREATION DE PLANS DANS LE BUT DE REALISER NOTRE PROPRE CHASSIS  
 
 Nous avons décidé de prendre de l'avance sur la potentielle suite du projet en commençant à réaliser des plans 3D du futur chassis sur OnShape.
 Alexandre réalisera l'ensemble de la partie transmission (Engrenages moteur, axe...) et les "suspensions" tandis que je tenterai de réaliser le bloc
