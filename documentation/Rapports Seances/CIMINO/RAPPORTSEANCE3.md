@@ -62,21 +62,31 @@ sur la même sortie du pont en H divise le courant sortant de celui-ci en 2 (mot
 sur la puissance électrique reçue par les moteurs (divisée également par 2) et ainsi diminuant leur performance.
 
 
-## POINTS A AMELIORER:
+## I.4 POINTS A AMELIORER:
 
 ### 1. vitesse de la voiture:   
 
-  Hypothèse: mettre 2 pont en H 
+  Hypothèse: mettre 2 pont en H ou envoyer plus de patate
+  
 
 ### 2. télécommunication:    
 
   -De nombreuses données semblent être perdues lors de la télécommunication   
   Hypothèse: Jouer sur les réglages des modules HC-12 afin de gagner en performance   
-    
+             Mettre des capacités en amont des modules comme recommandé   
+             Changer de modules...    
+             
   -Créer une vérification de la communication pour voir lorsque des données sont perdues (allumage led esplora)
 
 ### 3. branchements:
-  -Réaliser des soudures pour simplifier les branchements réalisés et éviter les faux-contacts.
+  -Réaliser des soudures pour simplifier les branchements réalisés et éviter les faux-contacts.   
+
+
+## I.5 créations de plans pour le projet de réaliser notre propre chassis   
+
+Nous avons décidé de prendre de l'avance sur la potentielle suite du projet en commençant à réaliser des plans 3D du futur chassis sur OnShape.
+Alexandre réalisera l'ensemble de la partie transmission (Engrenages moteur, axe...) et les "suspensions" tandis que je tenterai de réaliser le bloc
+chassis ainsi que l'aspect directionnel.
   
 
 
