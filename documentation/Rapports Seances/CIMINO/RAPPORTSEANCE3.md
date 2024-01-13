@@ -18,26 +18,8 @@ ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   5. [envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/TEST5)
   
 
-##  I.2 ARDUINO ESPLORA
 
-Découverte de l'Arduino Eplora ainsi que de la librairie associée. La carte est simple d'utilisation niveau code, cependant le challenge résidait dans la 
-faible documentation concernant les pins. Après quelques recherches j'ai trouvé une documentation non-officielle qui semble correcte. 
-Réalisation de tests permettant de récupérer les informations données par les différents modules de la télécommande. La librairie est simple.   
-
-Définition des modules que nous utiliserons pour notre projet.
-![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/239b7123-25a9-473f-9b85-8eb9a99dbf49)    
-
-
-1. potentiomètre, ajuste la puissance délivrée aux moteurs 
-2. joystick, permet d'avancer, reculer, tourner
-3. vérifie la bonne communication entre la télécommande et la voiture (alummme une led de couleur en fonction de l'état de la connection)
-   
-
-Test réalisé:
-Récupération de l'état du potentiomètre(1), du joystick(2), et du bouton d'état de la connection(3).
-
-
-## I.3 HC-12 ET ESPLORA ET VOITURE
+## I.2 HC-12 ET ESPLORA ET VOITURE
 
 Définition d'un algorithme d'envoie/réception des données pour éviter les confusions.
 Les valeurs envoyées sont les suivantes : Roll (enclenche le roulage du véhicule en fonction de la valeur de -255 à 255), Direction (décide de la valeur
@@ -62,7 +44,7 @@ sur la même sortie du pont en H divise le courant sortant de celui-ci en 2 (mot
 sur la puissance électrique reçue par les moteurs (divisée également par 2) et ainsi diminuant leur performance.
 
 
-## I.4 POINTS A AMELIORER:
+## I.3 POINTS A AMELIORER:
 
 ### 1. vitesse de la voiture:   
 
@@ -82,7 +64,7 @@ sur la puissance électrique reçue par les moteurs (divisée également par 2) 
   -Réaliser des soudures pour simplifier les branchements réalisés et éviter les faux-contacts.   
 
 
-## I.5 CREATION DE PLANS DANS LE BUT DE REALISER NOTRE PROPRE CHASSIS  
+## I.4 CREATION DE PLANS DANS LE BUT DE REALISER NOTRE PROPRE CHASSIS  
 
 Nous avons décidé de prendre de l'avance sur la potentielle suite du projet en commençant à réaliser des plans 3D du futur chassis sur OnShape.
 Alexandre réalisera l'ensemble de la partie transmission (Engrenages moteur, axe...) et les "suspensions" tandis que je tenterai de réaliser le bloc
