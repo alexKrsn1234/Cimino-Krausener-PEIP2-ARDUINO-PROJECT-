@@ -1,4 +1,4 @@
-#I/ Partie pratique et résumé:
+## I/ Partie pratique et résumé:
 Cette semaine mon travail consistait pleinement à mettre en fonctionnement la voiture avec la nouvelle batterie et les nouveaux ponts en H confiés pour l'occasion.
 <img width="308" alt="image" src="https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/941f4895-55b0-4a7b-af56-a30ade71fbc9">
 
@@ -16,12 +16,12 @@ les moteurs.
 ![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/2e6678e8-c3e0-4fd5-9a46-a52d65238c74)
 
 
-#II/Partie code:
+## II/Partie code:
 
 Afin de finir la mise en place de ces nouveux composants, j'ai réaliser le [code théorique](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/RECEIVER_HBRIDGE_V2/receiverV1/receiver/receiver.ino) pour commander les moteurs de la voiture après avoir installé 
 une librairie permettant de se servir facilement des fonctionnalités du LN298N. Cependant, je n'ai pas pu vérifier le bon fonctionnement du code (cf III).
 
-#III/Problèmes rencontrés:
+## III/Problèmes rencontrés:
 
 Il s'emblait à première vu que la batterie qui nous avez été confié etait Hors Service. En effet après l'avoir mise en charge nous avons voulu la connecter 
 afin de tester nos avancées, cependant elle ne fournissait pas le courant nécessaire pour alimenter l'arduino depuis le Pont en H. ALors j'ai testé son voltage
