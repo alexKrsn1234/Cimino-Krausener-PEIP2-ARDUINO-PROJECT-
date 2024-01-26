@@ -3,7 +3,7 @@ Cette semaine mon travail consistait pleinement à mettre en fonctionnement la v
 
 <img width="308" alt="image" src="https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/941f4895-55b0-4a7b-af56-a30ade71fbc9">
 
-Nous somme passé d'une batterie 2 cells(7,4V) à une 3 cells(11,1V) dans le but d'acquérir plus de puissance. Cette batterie envoyant un débit plus élevé il s'agit
+Nous sommes passés d'une batterie 2 cells(7,4V) à une 3 cells(11,1V) dans le but d'acquérir plus de puissance. Cette batterie envoyant un débit plus élevé il s'agit
 donc de mettre à l'épreuve de nouveaux ponts en H car le précedent devenait ainsi obsolète. Nous possédant désormais 2 ponts en H montés sur leur module LN298N.
 Pour la sélection des ponts en H et de leur nombre nous avons effectué des test d'ampérage en entrée des moteurs. En roulage avec resistance infligée afin de 
 simuler les forces de frottement et le poids de la voiture s'opposant au mouvement on obtient pour une tension d'entrée de 5V un ampérage totale en entrée des 
