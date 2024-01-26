@@ -13,6 +13,6 @@ void loop() {
     Serial.write(HC12.read());      // Send the data to Serial monitor
   }
   while (Serial.available()) {      // If Serial monitor has data
-    HC12.print(Serial.read());      // Send that data to HC-12
+    HC12.write(Serial.read());      // Send that data to HC-12
   }
 }
