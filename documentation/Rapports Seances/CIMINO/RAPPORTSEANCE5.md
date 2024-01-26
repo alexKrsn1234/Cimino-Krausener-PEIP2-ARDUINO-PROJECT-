@@ -12,7 +12,7 @@ Le premier s'occupera de la motorisation des roues et l'autre de la direction et
 Afin de pouvoir alimenter ces 2 ponts en H à l'aide d'une seule batterie, J'ai soudé à chaque fil + et -d'un connecteur XT60 qui sera relié à la batterie
 2 fils qui se connecteront chacuns à leur borne respective des LN298N. Les ponts en H sont ainsi connectés en parrallèle à la batterie et alimenteront ensuite
 les moteurs.
-<img width="409" alt="image" src="https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/493c0062-1f3d-4326-9596-1472e1b81760">
+![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/d5a40f9a-0de3-4e4c-acf3-6f70b044891d)
 
 
 #II/Partie code:
