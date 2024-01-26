@@ -17,7 +17,7 @@ les moteurs.
 
 #II/Partie code:
 
-Afin de finir la mise en place de ces nouveux composants, j'ai réaliser le (code théorique)[code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/RECEIVER_HBRIDGE_V2/receiverV1/receiver/receiver.ino] pour commander les moteurs de la voiture après avoir installé 
+Afin de finir la mise en place de ces nouveux composants, j'ai réaliser le [code théorique](/code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/RECEIVER_HBRIDGE_V2/receiverV1/receiver/receiver.ino) pour commander les moteurs de la voiture après avoir installé 
 une librairie permettant de se servir facilement des fonctionnalités du LN298N. Cependant, je n'ai pas pu vérifier le bon fonctionnement du code (cf III).
 
 #III/Problèmes rencontrés:
