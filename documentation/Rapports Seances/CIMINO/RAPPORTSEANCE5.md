@@ -1,5 +1,7 @@
 #I/ Partie pratique et résumé:
 Cette semaine mon travail consistait pleinement à mettre en fonctionnement la voiture avec la nouvelle batterie et les nouveaux ponts en H confiés pour l'occasion.
+<img width="308" alt="image" src="https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/941f4895-55b0-4a7b-af56-a30ade71fbc9">
+
 Nous somme passé d'une batterie 2 cells(7,4V) à une 3 cells(11,1V) dans le but d'acquérir plus de puissance. Cette batterie envoyant un débit plus élevé il s'agit
 donc de mettre à l'épreuve de nouveaux pont en H car le précedent devenait ainsi obsolète. Nous possédant désormais 2 pont en H montés sur leur module LN298N.
 Pour la sélection des ponts en H et de leur nombre nous avons effectuer des test d'ampérage en entrée des moteurs. En roulage avec resistance infligée afin de 
@@ -10,10 +12,12 @@ Le premier s'occupera de la motorisation des roues et l'autre de la direction et
 Afin de pouvoir alimenter ces 2 ponts en H à l'aide d'une seule batterie, J'ai soudé à chaque fil + et -d'un connecteur XT60 qui sera relié à la batterie
 2 fils qui se connecteront chacuns à leur borne respective des LN298N. Les ponts en H sont ainsi connectés en parrallèle à la batterie et alimenteront ensuite
 les moteurs.
+<img width="409" alt="image" src="https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/493c0062-1f3d-4326-9596-1472e1b81760">
+
 
 #II/Partie code:
 
-Afin de finir la mise en place de ces nouveux composants, j'ai réaliser le code théorique pour commander les moteurs de la voiture après avoir installé 
+Afin de finir la mise en place de ces nouveux composants, j'ai réaliser le (code théorique)[code/TELECOMMUNICATION/HC-12/HC12-commSR/ESPLORATEST/RECEIVER_HBRIDGE_V2/receiverV1/receiver/receiver.ino] pour commander les moteurs de la voiture après avoir installé 
 une librairie permettant de se servir facilement des fonctionnalités du LN298N. Cependant, je n'ai pas pu vérifier le bon fonctionnement du code (cf III).
 
 #III/Problèmes rencontrés:
