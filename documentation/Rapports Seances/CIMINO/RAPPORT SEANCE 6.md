@@ -11,6 +11,5 @@ reposait sur l'utilisation de la batterie. Le projet a donc repris son cours lor
 J'ai alors réalisé tout les branchements nécessaire pour tester le code théorique écrit à la seance précedente. Ce code visait à remplacer la version 1 du code 
 fonctionnel côté recepteur car on a changer de pont en H en même temps que de batterie. L'ancien pont en H étaient obsolète pour une telle puissance délivrée (cf
 RAPPORT SEANCE 5). Dans ce code j'ai utilisé une librairie conçut pour faciliter l'usage des ponts en H LN298, cependant malgrè les tests effectués, la voiture
-ne se déplacait pas. En isolant le problème, je me suis rendu compte que les ponts en H ne délivraient pas la puissance aux moteurs. J'ai donc décidé de ne 
-pas utiliser cette librairie et de créer les fonctions dont j'ai besoin par moi même. J'ai donc codé deux fonctions simple pour faire avancer et tourner la 
-voiture en fonction des données reçues. Et j'ai remplacé les fonctions de la librairie par celles-ci. 
+ne se déplacait pas. En isolant le problème, je me suis rendu compte que les ponts en H ne délivraient pas la puissance aux moteurs. L'hypothèse est que le bug portet sur la librairie utilisée. J'ai donc décidé de ne pas utiliser cette librairie et de créer les fonctions dont j'ai besoin par moi même. J'ai donc codé
+deux fonctions simple pour faire avancer et tourner la voiture en fonction des données reçues. Et j'ai remplacé les fonctions de la librairie par celles-ci. Le problème persiste cependant pour le moment.
