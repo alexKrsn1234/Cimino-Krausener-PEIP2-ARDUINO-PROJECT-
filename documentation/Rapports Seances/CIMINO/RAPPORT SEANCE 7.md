@@ -9,7 +9,7 @@ j'ai décidé de ne pas travailler avec la télécommande mais d'implémenter di
 ### Partie code:
 Pour être sûr de la fiabilité de mon code, j'ai analyser chaque ligne de mon code ainsi que leur but et comparer avec le code de la séance de travail effectuée 
 au cours du 1er semestre avec les ponts en H LN298N. Aucun problème de semblait venir du code. Les bons usages étaient respectés ainsi que les bonnes 
-procédures. J'ai pu tester les fonctions du code sur une autre voiture et celui-ci fonctionnait convenablement. Le bug ne venait donc pas du code.
+procédures. J'ai pu tester les fonctions [du code](code/test/motor/HBRIDGE_TEST/HBRIDGE_TEST/HBRIDGE_TEST.ino) sur une autre voiture et celui-ci fonctionnait convenablement. Le bug ne venait donc pas du code.
 
 ### Partie branchements et composants:
 Dans le but de tester mes branchements et mes composants j'ai utilisé un multimètre principalement en tant que voltmètre afin de tester les tensions aux bornes de
