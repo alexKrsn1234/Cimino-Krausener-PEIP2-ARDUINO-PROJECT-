@@ -18,6 +18,6 @@ des ponts en H en implémentant des codes simples (ex : avancer en continue à f
 la patte enable. Lors de ce test je me suis rendu compte que les ponts en H étaient obsolètes. Ils ne fonctionnaient pas ou plus (impossible à déterminer) étant
 donné qu'on avait jamais su les faire fonctionner (soit parce qu'ils étaient obsolètes initialement ou car nous les avions rendu hors service suite à une mauvaise
 utilisation au départ). J'ai alors demandé de nouveaux ponts en H et était très précautioneux. Après les avoir branchés correctement (non sans mal car il s'agit 
-d'un vrai travail d'orfèvre), j'ai réalisé à nouveau des tests qui se sont avérés fructueux. La panne provenait seulement des ponts en H. Nous pouvions reprendre 
+d'un vrai travail d'orfèvre), j'ai réalisé à nouveau des tests qui se sont avérés fructueux. La panne provenait seulement des ponts en H. Nous pouvons reprendre 
 l'avancement du projet.
 
