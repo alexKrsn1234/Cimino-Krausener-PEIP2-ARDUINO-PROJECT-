@@ -5,10 +5,13 @@ const unsigned int EN_A = 3;
 const unsigned int IN1_A = 4;
 const unsigned int IN2_A = 5;
 
-const unsigned int IN1_B = 6;
+const unsigned int IN1_B = 2;
 const unsigned int IN2_B = 7;
 const unsigned int EN_B = 9;
 
+const unsigned int EN_C = 6;
+const unsigned int IN1_C=12;
+const unsigned int IN2_C=13;
 
 
 void setup() {
@@ -24,6 +27,11 @@ void setup() {
   digitalWrite(IN2_A,LOW);
   digitalWrite(IN1_B,HIGH);
   digitalWrite(IN2_B,LOW);
+  digitalWrite(IN1_C,HIGH);
+  digitalWrite(IN2_C,LOW);
+  digitalWrite(EN_A, HIGH);
+  digitalWrite(EN_B, HIGH);
+  digitalWrite(EN_C, HIGH);
 }
 
 
