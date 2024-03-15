@@ -1,4 +1,4 @@
-### Comment est assurée la télécommunication
+### Comment la télécommunication est-elle assurée ?
 
 Celle-ci est assurée par les modules émetteurs/récepteurs Radio Fréquence HC-12. Ces modules se présentent comme ceci:   
 ![image](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/assets/127763192/2eabf3e1-c9c6-444f-9d1b-0715361f4296)
@@ -12,3 +12,9 @@ L'ensemble des calculs nécessaires à la récupération de ces valeurs sont ain
 Les informations sont ensuite encodées au moment de l'envoi c'est à dire qu'elles sont serties de différents bits de contrôle.
 
 Une fois réceptionées par l'arduino récepteur ces informations sont décodées et les valeurs reçues de roll et direction sont redirigées vers les pont en H. 
+
+##### Détails techniques
+
+fréquence: 433.4 MHz   
+channel: 001   
+baudrate: 9600
