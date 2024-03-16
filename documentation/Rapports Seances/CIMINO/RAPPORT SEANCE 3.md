@@ -9,13 +9,13 @@ Découverte des modules et de leur fonctionnement, reconfiguration de ceci grâc
 Nombreux tests de communication effectués afin d'acquérir l'expérience nécessaire et de choisir un mode de fonctionnement paraissant adapté (les 3 premiers test 
 ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   1. envoie d'un bit d'information (0 ou 1)
-  2. [contrôle à distance d'une led](/code/test/HC12 tests/ledtest)
-  3. [envoie d'informations avec des bits de contôle (start, end)](/code/test/HC12 tests/TEST3)
+  2. [contrôle à distance d'une led](code/test/HC12 tests/ledtest/transmitterLed/transmitterLed.ino) 
+  3. [envoie d'informations avec des bits de contôle (start, end)](code/test/HC12 tests/TEST3) 
      
   Emmetteur maintenant placé sur une Arduino Esplora   
   
-  4. [envoie d'informations depuis le joystick de l'esplora](/code/test/car tests/esploratest/Joystick test)
-  5. [envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur](/code/test/car tests/esploratest/Cytron motor test)
+  4. [envoie d'informations depuis le joystick de l'esplora](code/test/car tests/esploratest/Joystick test)
+  5. [envoie d'informations correctement encodées (bits de contrôles + bits liés au module d'envoie) à l'arduino uno du récepteur](code/test/car tests/esploratest/Cytron motor test)
   
 
 
