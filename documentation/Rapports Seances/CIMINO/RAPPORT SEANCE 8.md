@@ -1,6 +1,6 @@
 ## TRAVAIL REALISE:
 Lors de cette séance, je me suis attelé à faire fonctionner la voiture. Lors de la séance précédente nous avions résolu le bug qui empêchait la voiture de se
-déplacer. Cette fois ci j'ai donc réalisé tout les branchements nécessaires pour l'utilisation des 2 ponts en H et j'ai donc testé le [code théorique](code/test/car%20tests/esploratest/L298n%20motor%20test/receiver/receiver.ino)
+déplacer. Cette fois ci j'ai donc réalisé tout les branchements nécessaires pour l'utilisation des 2 ponts en H et j'ai donc testé le [code théorique](/code/test/car%20tests/esploratest/L298n%20motor%20test/receiver/receiver.ino)
 réalisé il y a 2 seances auquel j'ai rajouté une fonction pour tourner. Le test se faisait donc à distance à l'aide de la télécommande. Le test a dans l'ensemble
 porté ses fruits mais on a pu constaté certains bugs:   
   -La voiture n'a pas le même comportement en marche avant et en marche arrière.
