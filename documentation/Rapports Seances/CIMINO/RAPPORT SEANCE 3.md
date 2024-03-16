@@ -9,7 +9,7 @@ Découverte des modules et de leur fonctionnement, reconfiguration de ceci grâc
 Nombreux tests de communication effectués afin d'acquérir l'expérience nécessaire et de choisir un mode de fonctionnement paraissant adapté (les 3 premiers test 
 ont étés réalisés sur 2 arduino uno (emmeteur/récepteur).
   1. envoie d'un bit d'information (0 ou 1)
-  2. [contrôle à distance d'une led](code/test/HC12 tests/ledtest/transmitterLed/transmitterLed.ino) 
+  2. [contrôle à distance d'une led]([code/test/HC12 tests/ledtest/transmitterLed/transmitterLed.ino](https://github.com/alexKrsn1234/Cimino-Krausener-PEIP2-ARDUINO-PROJECT-/tree/75dc7679b8dd1df151e483f3b57c5de4d6d7daa8/code/telecommunication/HC-12/HC12%20tests/ledtest)) 
   3. [envoie d'informations avec des bits de contôle (start, end)](code/test/HC12 tests/TEST3) 
      
   Emmetteur maintenant placé sur une Arduino Esplora   
