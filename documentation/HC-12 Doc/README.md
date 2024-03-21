@@ -16,4 +16,6 @@ Les différentes commandes utiles sont:
   AT+Cxxx pour modifier la chaine et ainsi la fréquence sur laquelle le module communique   
   AT+FUx pour modifier le mode de communication (délai d'envoie de bits, distance max de communication et optimisation de l'utilisation d'énergie)
 
-### [Une documentation complète ici](https://statics3.seeedstudio.com/assets/file/bazaar/product/HC-12_english_datasheets.pdf)
+### [Une documentation complète ici](https://statics3.seeedstudio.com/assets/file/bazaar/product/HC-12_english_datasheets.pdf)   
+
+### [exemple d'utilisation trouvée sur le net](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/)
